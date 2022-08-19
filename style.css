@@ -87,12 +87,45 @@ header .nav-links {
 }
 
 
-.nav-links li a:hover{
-    color: #e34e0f;
-    font-weight: 900;
-    font-family: montserrat;
-    font-size: 18px;
+
+
+.nav-item a:hover{
+   
+  color: #2206f8;
 }
+
+
+.nav-item::after {
+  content: "";
+  position: relative;
+  top: 0em;
+
+  display: block;
+  background: none repeat scroll 0 0 transparent;
+  height: 2px;
+  width: 0;
+
+  background: #e70999;
+  
+}
+.nav-links li:hover:nth-child(1)::after {
+  width: 16%;  
+}
+.nav-links li:hover:nth-child(2)::after {
+  width: 16%;  
+}
+.nav-links li:hover:nth-child(3)::after {
+  width: 18%;
+}
+
+.nav-links li:hover:nth-child(4)::after {
+  width: 12%;
+}
+.nav-links li:hover:nth-child(5)::after {
+  width: 21%;  
+}
+
+
 
 .icon {
 	width: 30px;

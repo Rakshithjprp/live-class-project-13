@@ -50,9 +50,19 @@
             padding-top: 0;
         }
   
+        .nav-links li:hover:nth-child(n)::after {
+          width: 100%;  
+        }
+  
         .nav-links1 {
           margin-left: 300px;
           margin-right: 200px;
+      }
+  
+  
+      .nav-item:hover:after {
+        width: 100%;
+        
       }
   
       .nv-img{
@@ -343,10 +353,6 @@
     padding: 20px 0px;
     
   }
-  
-  
-  
-  
   
   
   }
